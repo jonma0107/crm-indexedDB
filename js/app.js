@@ -94,7 +94,7 @@
       const idEliminar = Number(e.target.dataset.cliente);
       // const confirmar = confirm('seguro deseas eliminar este cliente?');
       const confirmar = swal({
-        title: "Estás seguro de eliminar el registro?",
+        title: "Realmente quieres eliminar el registro?",
         text: "Una vez borrado, no estará disponible en la base de datos!",
         icon: "warning",
         buttons: true,
