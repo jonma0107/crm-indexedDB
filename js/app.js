@@ -9,6 +9,8 @@
     }
   })
 
+  //*****************************  FUNCIONES  ************************** */
+
   function crearBD() {
     let crearBD = window.indexedDB.open('crm', 1);
 
@@ -38,6 +40,7 @@
     }
   }; // fin crearBD
 
+  // *******************************************************************************
 
   function enlistarClientes() {
     // abrir la conexion
